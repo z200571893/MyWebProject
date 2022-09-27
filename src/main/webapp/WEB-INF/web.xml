@@ -72,4 +72,22 @@
 		<servlet-name>ContextServlet</servlet-name>
 		<url-pattern>/ContextServlet</url-pattern>
 	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ContextServlet1</servlet-name>
+		<servlet-class>com.atguigu.servlet.ContextServlet1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ContextServlet1</servlet-name>
+		<url-pattern>/Context1</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ContextServlet2</servlet-name>
+		<servlet-class>com.atguigu.servlet.ContextServlet2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ContextServlet2</servlet-name>
+		<url-pattern>/Context2</url-pattern>
+	</servlet-mapping>
 </web-app>
